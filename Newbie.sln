@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbie.AOP", "Newbie.AOP\Newbie.AOP.csproj", "{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbie.Caching", "Newbie.Caching\Newbie.Caching.csproj", "{98E94463-60F6-43E0-846B-A2C76A4780E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbie.RabbitMQ", "Newbie.RabbitMQ\Newbie.RabbitMQ.csproj", "{7B959F5A-433F-421C-B0B9-069D6B9D1C81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1195119B-05EE-4C47-BF1F-B6E77306F340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{20FAD409-4ECC-4203-BD14-1ABAC5754A4B}"
+	ProjectSection(SolutionItems) = preProject
+		lib\zxing.dll = lib\zxing.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostSharp", "PostSharp", "{8F6C6204-2B99-4FCC-B29E-360143629336}"
+	ProjectSection(SolutionItems) = preProject
+		lib\PostSharp\PostSharp.dll = lib\PostSharp\PostSharp.dll
+		lib\PostSharp\PostSharp.Laos.dll = lib\PostSharp\PostSharp.Laos.dll
+		lib\PostSharp\PostSharp.xml = lib\PostSharp\PostSharp.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signed", "Signed", "{419BC59C-B93C-45A4-A77E-8058BE1EF7EE}"
+	ProjectSection(SolutionItems) = preProject
+		lib\PostSharp\Signed\PostSharp.dll = lib\PostSharp\Signed\PostSharp.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{891E773B-8994-4732-A357-62EAD5357C46}"
+	ProjectSection(SolutionItems) = preProject
+		lib\RabbitMQ\RabbitMQ.Client.dll = lib\RabbitMQ\RabbitMQ.Client.dll
+		lib\RabbitMQ\RabbitMQ.ServiceModel.dll = lib\RabbitMQ\RabbitMQ.ServiceModel.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{87C586A7-33BC-4A01-AEF5-690B63B44228}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Redis\ServiceStack.Common.dll = lib\Redis\ServiceStack.Common.dll
+		lib\Redis\ServiceStack.Interfaces.dll = lib\Redis\ServiceStack.Interfaces.dll
+		lib\Redis\ServiceStack.Redis.dll = lib\Redis\ServiceStack.Redis.dll
+		lib\Redis\ServiceStack.Text.dll = lib\Redis\ServiceStack.Text.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STSdb", "STSdb", "{86A7CF53-92A5-4DF3-B150-D9A30FE6D421}"
+	ProjectSection(SolutionItems) = preProject
+		lib\STSdb\STSdb4.dll = lib\STSdb\STSdb4.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbie.Util", "Newbie.Util\Newbie.Util.csproj", "{C673184E-98C4-449C-B63F-239A036A66C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E94463-60F6-43E0-846B-A2C76A4780E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E94463-60F6-43E0-846B-A2C76A4780E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E94463-60F6-43E0-846B-A2C76A4780E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E94463-60F6-43E0-846B-A2C76A4780E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B959F5A-433F-421C-B0B9-069D6B9D1C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B959F5A-433F-421C-B0B9-069D6B9D1C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B959F5A-433F-421C-B0B9-069D6B9D1C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B959F5A-433F-421C-B0B9-069D6B9D1C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C673184E-98C4-449C-B63F-239A036A66C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C673184E-98C4-449C-B63F-239A036A66C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C673184E-98C4-449C-B63F-239A036A66C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C673184E-98C4-449C-B63F-239A036A66C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C} = {1195119B-05EE-4C47-BF1F-B6E77306F340}
+		{98E94463-60F6-43E0-846B-A2C76A4780E1} = {1195119B-05EE-4C47-BF1F-B6E77306F340}
+		{7B959F5A-433F-421C-B0B9-069D6B9D1C81} = {1195119B-05EE-4C47-BF1F-B6E77306F340}
+		{8F6C6204-2B99-4FCC-B29E-360143629336} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{419BC59C-B93C-45A4-A77E-8058BE1EF7EE} = {8F6C6204-2B99-4FCC-B29E-360143629336}
+		{891E773B-8994-4732-A357-62EAD5357C46} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{87C586A7-33BC-4A01-AEF5-690B63B44228} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{86A7CF53-92A5-4DF3-B150-D9A30FE6D421} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{C673184E-98C4-449C-B63F-239A036A66C8} = {1195119B-05EE-4C47-BF1F-B6E77306F340}
+	EndGlobalSection
+EndGlobal
