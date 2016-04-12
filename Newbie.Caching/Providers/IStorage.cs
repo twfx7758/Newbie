@@ -10,7 +10,6 @@ namespace Newbie.Caching.Providers
     /// </summary>
     public interface IStorage
     {
-
         /// <summary>
         /// 添加指定key的对象
         /// </summary>
