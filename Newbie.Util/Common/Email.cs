@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Newbie.Util
+namespace Newbie.Util.Common
 {
     #region 邮件
     /// <summary>

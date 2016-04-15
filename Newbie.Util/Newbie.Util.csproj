@@ -80,7 +80,7 @@
     <Compile Include="DataFormat.Ext.cs" />
     <Compile Include="DESEncryptor.cs" />
     <Compile Include="DistanceHelper.cs" />
-    <Compile Include="Email.cs" />
+    <Compile Include="Common\Email.cs" />
     <Compile Include="ExceptionErrorCode.cs" />
     <Compile Include="FacadeHelper.cs" />
     <Compile Include="FileHelper.cs" />
