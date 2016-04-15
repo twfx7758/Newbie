@@ -87,6 +87,7 @@
     <Compile Include="FormHelper.cs" />
     <Compile Include="HttpGetHelper.cs" />
     <Compile Include="JsonHelper.cs" />
+    <Compile Include="Lock\CheapUnfairReaderWriterLock.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MailHelper.cs" />
     <Compile Include="MapHelper.cs" />
