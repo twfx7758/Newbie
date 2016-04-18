@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn.AOP.Test
+namespace ConsoleAop
 {
     public class AopInvocation
     {

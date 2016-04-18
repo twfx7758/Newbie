@@ -10,6 +10,9 @@ namespace ConsoleAop
     {
         static void Main(string[] args)
         {
+            AopInvocation.MainMethod();
+
+            Console.ReadLine();
         }
     }
 }

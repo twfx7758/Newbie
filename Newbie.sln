@@ -59,7 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitClient", "Test\Rabbit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOP", "AOP", "{FE5CA089-096C-47FC-8940-F10A4B552C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAop", "ConsoleAop\ConsoleAop.csproj", "{A5F53FFA-BC85-4923-86D1-53DAF0F608C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAop", "Test\ConsoleAop\ConsoleAop.csproj", "{A5F53FFA-BC85-4923-86D1-53DAF0F608C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

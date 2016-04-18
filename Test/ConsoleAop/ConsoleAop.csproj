@@ -51,7 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Newbie.AOP\Newbie.AOP.csproj">
+    <ProjectReference Include="..\..\Newbie.AOP\Newbie.AOP.csproj">
       <Project>{7507c9f1-2640-4af1-b7cc-71e28ab6c54c}</Project>
       <Name>Newbie.AOP</Name>
     </ProjectReference>
