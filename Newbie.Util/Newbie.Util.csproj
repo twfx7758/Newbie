@@ -38,6 +38,9 @@
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\lib\NPOI\NPOI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -82,6 +85,7 @@
     <Compile Include="DistanceHelper.cs" />
     <Compile Include="Common\Email.cs" />
     <Compile Include="ExceptionErrorCode.cs" />
+    <Compile Include="ExportExcel.cs" />
     <Compile Include="FacadeHelper.cs" />
     <Compile Include="FileHelper.cs" />
     <Compile Include="FormHelper.cs" />

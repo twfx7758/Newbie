@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbie.AOP", "Newbie.AOP\Newbie.AOP.csproj", "{7507C9F1-2640-4AF1-B7CC-71E28AB6C54C}"
 EndProject
@@ -61,6 +61,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOP", "AOP", "{FE5CA089-096
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAop", "Test\ConsoleAop\ConsoleAop.csproj", "{A5F53FFA-BC85-4923-86D1-53DAF0F608C6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NPOI", "NPOI", "{07C515C5-C0CF-490D-BBF4-01690BAD274D}"
+	ProjectSection(SolutionItems) = preProject
+		lib\NPOI\ICSharpCode.SharpZipLib.dll = lib\NPOI\ICSharpCode.SharpZipLib.dll
+		lib\NPOI\NPOI.dll = lib\NPOI\NPOI.dll
+		lib\NPOI\NPOI.OOXML.dll = lib\NPOI\NPOI.OOXML.dll
+		lib\NPOI\NPOI.OOXML.XML = lib\NPOI\NPOI.OOXML.XML
+		lib\NPOI\NPOI.OpenXml4Net.dll = lib\NPOI\NPOI.OpenXml4Net.dll
+		lib\NPOI\NPOI.OpenXml4Net.XML = lib\NPOI\NPOI.OpenXml4Net.XML
+		lib\NPOI\NPOI.OpenXmlFormats.dll = lib\NPOI\NPOI.OpenXmlFormats.dll
+		lib\NPOI\NPOI.XML = lib\NPOI\NPOI.XML
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +126,6 @@ Global
 		{1A993889-DCC2-4807-A645-1C9ED77BA8CF} = {1FDD6C6E-2AFC-4825-BA20-06C82D3FF4E1}
 		{FE5CA089-096C-47FC-8940-F10A4B552C80} = {42B35B5A-99D7-4AD0-91E4-05CD4FF46CD0}
 		{A5F53FFA-BC85-4923-86D1-53DAF0F608C6} = {FE5CA089-096C-47FC-8940-F10A4B552C80}
+		{07C515C5-C0CF-490D-BBF4-01690BAD274D} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
 	EndGlobalSection
 EndGlobal
