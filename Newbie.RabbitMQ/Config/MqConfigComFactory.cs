@@ -16,8 +16,9 @@ namespace Newbie.RabbitMQ
             {
                 _configDom = new MqConfigDom() {
                     MqHost = ConfigurationManager.AppSettings["MqHost"],
-                    MqUserName = ConfigurationManager.AppSettings["MqUserName"],
-                    MqPassword = ConfigurationManager.AppSettings["MqPassword"]
+                    MqUserName = ConfigurationManager.AppSettings["MqUserName"] ?? "guest",
+                    MqPassword = ConfigurationManager.AppSettings["MqPassword"] ?? "guest",
+                    MqVirtualHost = ConfigurationManager.AppSettings["MqVirtualHost"] ?? "/"
                 };
             }
 
