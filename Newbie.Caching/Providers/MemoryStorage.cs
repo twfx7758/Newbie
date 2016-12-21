@@ -9,7 +9,6 @@ namespace Newbie.Caching.Providers
 {
     public class MemoryStorage :IStorage
     {
-
         //System.Web.Caching.Cache appCache = System.Web.HttpContext.Current.Cache;
         System.Web.Caching.Cache appCache = System.Web.HttpRuntime.Cache;
 

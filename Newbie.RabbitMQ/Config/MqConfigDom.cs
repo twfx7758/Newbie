@@ -11,5 +11,6 @@ namespace Newbie.RabbitMQ
         public string MqHost { get; set; }
         public string MqUserName { get; set; }
         public string MqPassword { get; set; }
+        public string MqVirtualHost { get; set; }
     }
 }

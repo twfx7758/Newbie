@@ -38,6 +38,9 @@
       <HintPath>..\..\..\visual studio 2015\Projects\Promotion\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\lib\NPOI\NPOI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -80,13 +83,15 @@
     <Compile Include="DataFormat.Ext.cs" />
     <Compile Include="DESEncryptor.cs" />
     <Compile Include="DistanceHelper.cs" />
-    <Compile Include="Email.cs" />
+    <Compile Include="Common\Email.cs" />
     <Compile Include="ExceptionErrorCode.cs" />
+    <Compile Include="ExportExcel.cs" />
     <Compile Include="FacadeHelper.cs" />
     <Compile Include="FileHelper.cs" />
     <Compile Include="FormHelper.cs" />
     <Compile Include="HttpGetHelper.cs" />
     <Compile Include="JsonHelper.cs" />
+    <Compile Include="Lock\CheapUnfairReaderWriterLock.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MailHelper.cs" />
     <Compile Include="MapHelper.cs" />

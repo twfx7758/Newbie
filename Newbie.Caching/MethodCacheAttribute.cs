@@ -39,9 +39,8 @@ namespace Newbie.Caching
 
         private MethodCacheAttribute()
         {
+
         }
-
-
 
         /// <summary>
         /// 构造方法 
@@ -194,9 +193,10 @@ namespace Newbie.Caching
             }
             return key.Substring(0, key.Length - 1).Replace("BitAuto.EP.MaiChe.", "").Replace(".dll","");
         }
+
         private void WriteLog(string msg)
-        { }
+        {
 
-
+        }
     }
 }
