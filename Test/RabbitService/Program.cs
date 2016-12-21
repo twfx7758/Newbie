@@ -29,7 +29,7 @@ namespace RabbitService
             LogLocation.Log = new LogInfo();
             RabbitMQClientContext context = new RabbitMQClientContext()
             {
-                ListenQueueName = "LogQueue"
+                ListenQueueName = "SendQueueName"
             };
 
             RabbitMQConsumer<string> consumer = new RabbitMQConsumer<string>(context, new EventMessage<string>()) {
