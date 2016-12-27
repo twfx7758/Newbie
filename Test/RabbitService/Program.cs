@@ -7,6 +7,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Threading;
 using Newbie.RabbitMQ;
+using RabbitMessage;
 
 namespace RabbitService
 {
@@ -32,9 +33,9 @@ namespace RabbitService
                 ListenQueueName = "SendQueueName"
             };
 
-            RabbitMQConsumer<string> consumer = new RabbitMQConsumer<string>(context, new EventMessage<string>()) {
+            RabbitMQConsumer<MessageEntity> consumer = new RabbitMQConsumer<MessageEntity>(context, new EventMessage<MessageEntity>()) {
                 ActionMessage = b => {
-                    Console.WriteLine(b.MessageEntity);
+                    Console.WriteLine(b.MessageEntity.MessageContent);
                     b.IsOperationOk = true;
                 } 
             };

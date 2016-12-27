@@ -57,6 +57,10 @@
       <Project>{7b959f5a-433f-421c-b0b9-069d6b9d1c81}</Project>
       <Name>Newbie.RabbitMQ</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\RabbitMessage\RabbitMessage.csproj">
+      <Project>{6d7da6a2-c4ab-4c73-b987-8c942f24f742}</Project>
+      <Name>RabbitMessage</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -51,7 +51,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbie.Util", "Newbie.Util\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{42B35B5A-99D7-4AD0-91E4-05CD4FF46CD0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbotMQ", "RabbotMQ", "{1FDD6C6E-2AFC-4825-BA20-06C82D3FF4E1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{1FDD6C6E-2AFC-4825-BA20-06C82D3FF4E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitService", "Test\RabbitService\RabbitService.csproj", "{B3E86D9D-5120-4F3E-B064-D58476AFCE2E}"
 EndProject
@@ -84,6 +84,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Newtonsoft.Json", "Newtonso
 		lib\Newtonsoft.Json\Newtonsoft.Json.dll = lib\Newtonsoft.Json\Newtonsoft.Json.dll
 		lib\Newtonsoft.Json\Newtonsoft.Json.xml = lib\Newtonsoft.Json\Newtonsoft.Json.xml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMessage", "RabbitMessage\RabbitMessage.csproj", "{6D7DA6A2-C4AB-4C73-B987-8C942F24F742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{A5F53FFA-BC85-4923-86D1-53DAF0F608C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F53FFA-BC85-4923-86D1-53DAF0F608C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F53FFA-BC85-4923-86D1-53DAF0F608C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7DA6A2-C4AB-4C73-B987-8C942F24F742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7DA6A2-C4AB-4C73-B987-8C942F24F742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7DA6A2-C4AB-4C73-B987-8C942F24F742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7DA6A2-C4AB-4C73-B987-8C942F24F742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,5 +147,6 @@ Global
 		{07C515C5-C0CF-490D-BBF4-01690BAD274D} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
 		{2237CE30-461C-4918-8525-CA90196868F2} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
 		{8007C972-10F6-4B3A-AA9E-7C4B582535DA} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{6D7DA6A2-C4AB-4C73-B987-8C942F24F742} = {1FDD6C6E-2AFC-4825-BA20-06C82D3FF4E1}
 	EndGlobalSection
 EndGlobal
