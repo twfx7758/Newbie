@@ -73,6 +73,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NPOI", "NPOI", "{07C515C5-C
 		lib\NPOI\NPOI.XML = lib\NPOI\NPOI.XML
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log4net", "log4net", "{2237CE30-461C-4918-8525-CA90196868F2}"
+	ProjectSection(SolutionItems) = preProject
+		lib\log4net\log4net.dll = lib\log4net\log4net.dll
+		lib\log4net\log4net.xml = lib\log4net\log4net.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Newtonsoft.Json", "Newtonsoft.Json", "{8007C972-10F6-4B3A-AA9E-7C4B582535DA}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Newtonsoft.Json\Newtonsoft.Json.dll = lib\Newtonsoft.Json\Newtonsoft.Json.dll
+		lib\Newtonsoft.Json\Newtonsoft.Json.xml = lib\Newtonsoft.Json\Newtonsoft.Json.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,5 +139,7 @@ Global
 		{FE5CA089-096C-47FC-8940-F10A4B552C80} = {42B35B5A-99D7-4AD0-91E4-05CD4FF46CD0}
 		{A5F53FFA-BC85-4923-86D1-53DAF0F608C6} = {FE5CA089-096C-47FC-8940-F10A4B552C80}
 		{07C515C5-C0CF-490D-BBF4-01690BAD274D} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{2237CE30-461C-4918-8525-CA90196868F2} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
+		{8007C972-10F6-4B3A-AA9E-7C4B582535DA} = {20FAD409-4ECC-4203-BD14-1ABAC5754A4B}
 	EndGlobalSection
 EndGlobal
